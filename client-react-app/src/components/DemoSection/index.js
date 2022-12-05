@@ -20,7 +20,7 @@ import {
 
 import IMG1 from "../../assets/images/img1.png";
 import IMG2 from "../../assets/images/img2.png";
-import IMG3 from "../../assets/images/img3.png";
+import IMG3 from "../../assets/images/img4.png";
 
 import SVG1 from "../../assets/images/svg-1.svg";
 
@@ -54,7 +54,7 @@ function VideoCard(props) {
           <VideoSubtitle>{props.description}</VideoSubtitle>{" "}
           <VideoAvatar>
             {" "}
-            <GoogleAvatar src={SVG1} alt="google-avatar" /> Mohammed Fajer
+            <GoogleAvatar src={SVG1} alt="google-avatar" /> Kundan Kumar
           </VideoAvatar>
         </CardInfoSection>
       </CardGrid>
@@ -111,7 +111,7 @@ export default class DemoSection extends Component {
               </VideoSubtitle>{" "}
               <VideoAvatar>
                 {" "}
-                <GoogleAvatar src={SVG1} alt="google-avatar" /> Mohammed Fajer
+                <GoogleAvatar src={SVG1} alt="google-avatar" /> Kundan Kumar
               </VideoAvatar>
             </CardInfoSection>
           </CardGrid>

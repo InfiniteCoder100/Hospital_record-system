@@ -207,7 +207,7 @@ function AboutSection() {
       <AboutSectionWrapper>
         <GridContainer>
           <Title>About</Title>
-          <SubTitle>some of the main technologies of this application</SubTitle>
+          <SubTitle>Some of the main technologies of this application</SubTitle>
           <CardContainer>
             <Card>
               <CardGrid>
@@ -256,7 +256,7 @@ function AboutSection() {
                       <CardImage src={SVG2} alt="file" />
                     </CardPartWrap>
                     <CardPartWrap>
-                      <CardTitle>INTERPLANETART FILE SYSTEM (IFPS)</CardTitle>
+                      <CardTitle>INTERPLANETARTY FILE SYSTEM (IFPS)</CardTitle>
                     </CardPartWrap>
                     <CardPartWrap>
                       <CardDescription>

@@ -154,7 +154,7 @@ function SolutionSection(props) {
           <LeftFlexContainer>
             <Title>Solution</Title>
 
-            <SubTitle>some of the characteristics of this application</SubTitle>
+            <SubTitle>Some of the characteristics of this application</SubTitle>
 
             {slides}
           </LeftFlexContainer>

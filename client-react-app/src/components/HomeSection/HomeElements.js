@@ -2,7 +2,7 @@ import styled from "styled-components";
 
 export const HomeContainer = styled.main`
   color: #fff;
-  background: #185adb;
+  background: #FFFF00;
   @media screen and (max-width: 768px) {
     padding: 100px 0;
   }

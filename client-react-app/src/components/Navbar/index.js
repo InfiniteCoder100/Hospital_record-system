@@ -44,7 +44,7 @@ function Navbar({ toggle, ...restProps }) {
         <Nav scrollNav={scrollNav}>
           <NavbarContainer>
             <NavLogo to="/" onClick={toggleHome}>
-              EHRethChain
+              DChronics
             </NavLogo>
             <MobileIcon onClick={toggle}>
               <FaBars />

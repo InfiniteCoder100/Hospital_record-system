@@ -29,7 +29,7 @@ import { animateScroll as scroll } from "react-scroll";
 import styled from "styled-components";
 
 const FooterContainer = styled.div`
-  background: #185adb;
+  background: #FFFF00;
   color: #fff;
   font-family: "Montserrat", sans-serif;
 `;
@@ -97,7 +97,7 @@ const Footer = () => {
     <FooterContainer>
       <FooterWrap>
         <a
-          href="https://github.com/mohammedfajer/EHRethChain"
+          href="https://github.com/InfiniteCoder100/DChronics"
           target="_blank"
           rel="noreferrer"
           style={{
@@ -110,7 +110,7 @@ const Footer = () => {
         </a>
 
         <Logo to="/" onClick={toggleHome}>
-          EHRethChain
+          DChronics
         </Logo>
         <CopyrightSection>
           <div>Copyright</div>
