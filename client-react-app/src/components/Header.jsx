@@ -19,7 +19,7 @@ function Header() {
                 <span>
                   <FaEthereum style={{ fontSize: "30px" }} />
                 </span>
-                EHRethChain
+                DChronics
               </Title>
             </div>
           </Col>
@@ -33,7 +33,7 @@ function Header() {
               Created By:{" "}
               <span>
                 <Text underline style={{ color: "#fff" }}>
-                  Mohammed Fajer
+                  Kundan Kumar
                 </Text>
               </span>
             </Title>

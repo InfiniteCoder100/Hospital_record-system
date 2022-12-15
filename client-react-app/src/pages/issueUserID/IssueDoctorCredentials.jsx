@@ -64,7 +64,7 @@ function IssueDoctorCredentials() {
         let result;
 
         switch (hospital.toLowerCase()) {
-          case "manchester hospital":
+          case "AIIMS hospital":
             console.log(
               "here i am about to issue manchester hospital provider id"
             );
@@ -86,7 +86,7 @@ function IssueDoctorCredentials() {
             setShowQR(false);
             setShowModal(false);
             message.info(
-              "We can only issue credentials for either 'manchester hospital' or 'london hospital'"
+              "We can only issue credentials for either 'AIIMS hospital' or 'Apollo hospital'"
             );
             break;
         }
@@ -127,7 +127,7 @@ function IssueDoctorCredentials() {
                 <Col sm="10">
                   <Form.Control
                     type="text"
-                    placeholder="Manchester Hospital"
+                    placeholder="AIIMS Hospital"
                     value={hospital}
                     onChange={(e) => setHospital(e.target.value)}
                   />

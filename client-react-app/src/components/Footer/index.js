@@ -30,7 +30,7 @@ import styled from "styled-components";
 
 const FooterContainer = styled.div`
   background: #FFFF00;
-  color: #fff;
+  color: #fff; 
   font-family: "Montserrat", sans-serif;
 `;
 
